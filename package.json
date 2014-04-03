@@ -1,0 +1,15 @@
+{
+  "name": "npm-config",
+  "version": "0.0.1",
+  "description": "Use npm for configuration.",
+  "main": "index.js",
+  "config" :{
+    "development": { "database" : { "host": "127.0.0.1" } },
+    "production:": { "database" : { "host": "something-weird-with-ports" } }
+  },
+  "scripts": {
+    "test": "node test/index.spec.js"
+  },
+  "author": "Tom Buchok <tom@buchok.com> (http://buchok.com/)",
+  "license": "ISC"
+}
